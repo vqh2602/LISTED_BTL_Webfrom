@@ -1,0 +1,277 @@
+﻿@font-face {
+    font-family: Roboto-Regular;
+    src: url(../font/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Thin;
+    src: url(../font/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: PlayfairDisplay;
+    src: url(../font/PlayfairDisplay-VariableFont_wght.ttf)
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: Roboto-Regular;
+}
+
+a {
+    text-decoration: none;
+}
+
+    a:visited {
+        color: rgb(255, 255, 255) !important;
+    }
+
+
+/* phần header */
+
+#header {
+    margin: 0 auto;
+    /* padding: 30px; */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    z-index: 10;
+    margin-top: 20px;
+}
+
+#name_listed {
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-weight: bold;
+    font-size: 25px;
+    /* font-weight: 400; */
+    color: rgb(255, 255, 255) !important;
+}
+
+.container_menu {
+    flex-grow: 1;
+}
+
+.ul_menu {
+    flex-direction: row;
+    background: none;
+    list-style-type: none;
+    /* text-align  : center; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+    .ul_menu > li {
+        margin: 0 10px 0 10px;
+        padding: 20px 0 20px 0;
+        position: relative;
+    }
+
+        .ul_menu > li > a {
+            font-size: 17px;
+            /* font-weight: 400; */
+            color: rgb(219, 219, 219) !important;
+        }
+
+            .ul_menu > li > a:hover {
+                color: rgb(255, 255, 255) !important;
+                text-decoration: underline;
+                animation: 1s;
+            }
+
+.sub_menu {
+    width: 130%;
+    display: none;
+    list-style-type: none;
+    position: absolute;
+}
+
+    .sub_menu > li {
+        margin: 10px 0 10px 0;
+    }
+
+.a_submenu {
+    color: rgb(255, 255, 255);
+}
+
+    .a_submenu:hover {
+        color: white !important;
+    }
+
+    .a_submenu:visited {
+        color: rgb(255, 255, 255) !important;
+    }
+
+.ul_menu > li:hover .sub_menu {
+    display: block;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1.2s;
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+/* footer - chân trang */
+
+.site-footer {
+    background-color: #f2f2f2;
+    margin-top: 100px;
+}
+
+.footer_container {
+    padding-top: 50px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row {
+    /* background-color: rgb(59, 63, 58); */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+ul {
+    list-style: none;
+}
+
+.row1 {
+    width: 32%;
+    /* height: 295px; */
+    padding: 0 15px;
+}
+
+.row2 {
+    width: 16%;
+    /* height: 295px; */
+    padding: 0 15px;
+}
+
+.row3 {
+    width: 25%;
+    /* height: 295px; */
+    padding: 0 15px;
+}
+
+.row4 {
+    /* height: 295px; */
+    padding: 0px;
+}
+
+.mb-4 {
+    padding: 5px 0;
+}
+
+.d-flex {
+    display: flex;
+    padding: 5px 0;
+}
+
+.mr-3 > i {
+    color: rgb(46, 46, 46);
+    margin-right: 10px;
+}
+
+.span_text_footer {
+    color: #666;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+.row h3 {
+    color: #000;
+    font-family: PlayfairDisplay;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+    margin-top: 0;
+    font-size: 22px;
+}
+
+
+
+
+.row2 li {
+    padding: 5px 0px;
+}
+
+.row3 li {
+    padding: 5px 0;
+}
+
+.row ul li a, .row3 a {
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    color: #666;
+}
+
+    .row ul li a :hover, .row3 a:hover {
+        color: rgb(0, 0, 0);
+    }
+
+    .row2 ul li a:hover, .row3 a:hover {
+        color: rgb(0, 0, 0);
+    }
+
+.row4 p a {
+    justify-content: left;
+    color: white;
+    text-align: left;
+    padding-left: 0px;
+}
+
+.conect_footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5rem !important;
+}
+
+    .conect_footer a {
+        color: rgb(46, 46, 46);
+    }
+
+.coppyright {
+    text-align: center;
+    font-family: 'ROBOTO-THIN';
+    color: #666;
+    padding-bottom: 30px;
+}
+
+    .coppyright > p > span {
+        color: rgb(46, 46, 46);
+    }
+
+

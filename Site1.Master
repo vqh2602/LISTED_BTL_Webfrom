@@ -1,0 +1,122 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="LISTED.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>LISTED</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Master_style/style/Style_master.css" />
+    <link rel="stylesheet" href="Fontawesome6/css/all.css" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+
+         <!-- header - đầu trang-->
+        <header id="header" role="banner">
+        <div class=container>
+            <a href="#" id="name_listed">Listed</a>
+            <!-- thanh menu -->
+            <div class="container_menu">
+                <ul class="ul_menu">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="">Utilities</a>
+                        <ul class="sub_menu">
+                            <li style="padding: 0"><a class="a_submenu" href="#">Giáo Viên</a></li>
+                            <li style="padding: 0"><a class="a_submenu" href="#">Hướng dẫn cho GV</a></li>
+                            <li style="padding: 0"><a class="a_submenu" href="#">Hướng dẫn cho HS</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Login/Signup</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+          <!-- khu vực hiể thị nội dung -->
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        
+        <!-- chân trang -->
+         <footer class="site-footer">
+        <div class="footer_container">
+            <div class="row">
+                <div class="row1">
+                    <h3 class="mb-4">About</h3>
+                    <ul class="list-unstyled ">
+                        <li class="d-flex"><span class="mr-3"><i class="fa-solid fa-location-dot"></i></span>
+                            <span class="span_text_footer">Trường ĐH Mở HN, Phố Nguyễn Hiền
+                                P. Bách khoa, Q.Hai Bà Trưng, Hà Nội</span></li>
+                        <li class="d-flex"><span class="mr-3"><i class="fa-solid fa-phone"></i></span>
+                            <span class="span_text_footer"> 024.62974545 | 024.62974646</span></li>
+                        <li class="d-flex"><span class="mr-3"><i class="fa-solid fa-envelope"></i></span>
+                            <span class="span_text_footer"> daotao@hou.edu.vn</span></li>
+                    </ul>
+                </div>
+                <div class="row2">
+                    <h3 class="mb-4">Blog</h3>
+                    <ul class="list-unstyled ">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Admin</a></li>
+                    </ul>
+                </div>
+                <div class="row3">
+                    <h3 class="mb-4">Latest Blog</h3>
+                    <ul class="list-unstyled blog-entry-footer">
+                        <li>
+                            <a href="#">
+                                Các Bài Kiểm Tra Sắp Tới
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Giáo Trình Tham Khảo
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Luyện Tập
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="row4">
+                    <h3>Connect</h3>
+                    <div class="conect_footer">
+                        <a href="#" class="p-2"><i class="fa-brands fa-facebook-square"></i></a>
+                        <a href="#" class="p-2"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="#" class="p-2"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="coppyright">
+                    <p>Copyright ©2021 All rights reserved | Thiết kế bởi <span>Nhóm 1</span></p> 
+            </div>
+        </div>
+    </footer>
+
+    </form>
+</body>
+</html>
