@@ -8,16 +8,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Master_style/style/Style_master.css" />
-    <link rel="stylesheet" href="Fontawesome6/css/all.css" />
+    <link rel="stylesheet" href="./Master_style/style/Style_master.css" />
+    <link rel="stylesheet" href="./Fontawesome6/css/all.css" />
+    <link rel="shortcut icon" type="image/png" href="Master_style/img/icon.png"/>
 
-    <asp:ContentPlaceHolder ID="head" runat="server">
+    <asp:ContentPlaceHolder ID="head" runat="server">   
     </asp:ContentPlaceHolder>
 </head>
 
 <body>
     <form id="form1" runat="server">
-
+    
          <!-- header - đầu trang-->
         <header id="header" role="banner">
         <div class=container>
@@ -30,7 +31,7 @@
                     </li>
 
                     <li>
-                        <a href="">Utilities</a>
+                        <a>Utilities</a>
                         <ul class="sub_menu">
                             <li style="padding: 0"><a class="a_submenu" href="#">Giáo Viên</a></li>
                             <li style="padding: 0"><a class="a_submenu" href="#">Hướng dẫn cho GV</a></li>

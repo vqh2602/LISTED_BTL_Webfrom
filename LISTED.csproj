@@ -67,6 +67,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Dangki.aspx" />
+    <Content Include="Dangnhap.aspx" />
     <Content Include="Fontawesome6\css\all.css" />
     <Content Include="Fontawesome6\css\all.min.css" />
     <Content Include="Fontawesome6\css\brands.css" />
@@ -13209,10 +13211,25 @@
     <Content Include="Master_style\img\book.jpg" />
     <Content Include="Master_style\img\cogai.jpg" />
     <Content Include="Master_style\img\header_bg.jpg" />
+    <Content Include="Master_style\img\icon.png" />
     <Content Include="Master_style\style\Style_master.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dangki.aspx.cs">
+      <DependentUpon>Dangki.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dangki.aspx.designer.cs">
+      <DependentUpon>Dangki.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dangnhap.aspx.cs">
+      <DependentUpon>Dangnhap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dangnhap.aspx.designer.cs">
+      <DependentUpon>Dangnhap.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
