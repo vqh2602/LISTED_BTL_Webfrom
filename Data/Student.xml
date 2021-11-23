@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ArrayOfStudent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <student>
+    <Fistname>huy</Fistname>
+    <Lastname>vuong quang</Lastname>
+    <Username>vqh2602</Username>
+    <Email>huykoj0@gmail.com</Email>
+    <Studentcode>19a10010220</Studentcode>
+    <Passw>123456789</Passw>
+  </student>
+</ArrayOfStudent>

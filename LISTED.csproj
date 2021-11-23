@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Dangki.aspx" />
     <Content Include="Dangnhap.aspx" />
+    <Content Include="Data\Student.xml" />
     <Content Include="Fontawesome6\css\all.css" />
     <Content Include="Fontawesome6\css\all.min.css" />
     <Content Include="Fontawesome6\css\brands.css" />
@@ -13206,6 +13207,7 @@
     <Content Include="Fontawesome6\svgs\thin\yen-sign.svg" />
     <Content Include="Fontawesome6\svgs\thin\yin-yang.svg" />
     <Content Include="Fontawesome6\svgs\thin\z.svg" />
+    <Content Include="Global.asax" />
     <Content Include="Home.aspx" />
     <Content Include="Master_style\img\bg_login.jpg" />
     <Content Include="Master_style\img\book.jpg" />
@@ -13216,6 +13218,8 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="cms\student.cs" />
+    <Compile Include="cms\XMLcode.cs" />
     <Compile Include="Dangki.aspx.cs">
       <DependentUpon>Dangki.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -13229,6 +13233,9 @@
     </Compile>
     <Compile Include="Dangnhap.aspx.designer.cs">
       <DependentUpon>Dangnhap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>

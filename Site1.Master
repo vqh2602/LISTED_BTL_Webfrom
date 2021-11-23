@@ -22,12 +22,12 @@
          <!-- header - đầu trang-->
         <header id="header" role="banner">
         <div class=container>
-            <a href="#" id="name_listed">Listed</a>
+            <a href="home.aspx" id="name_listed">Listed</a>
             <!-- thanh menu -->
             <div class="container_menu">
                 <ul class="ul_menu">
                     <li>
-                        <a href="#">Home</a>
+                        <a href="Home.aspx">Home</a>
                     </li>
 
                     <li>
@@ -46,7 +46,7 @@
                         <a href="#">About</a>
                     </li>
                     <li>
-                        <a href="#">Login/Signup</a>
+                        <a runat="server" id="head_user" ClientIDMode="Static" >Login/Signup</a>
                     </li>
                 </ul>
             </div>

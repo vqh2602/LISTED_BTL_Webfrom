@@ -125,9 +125,11 @@
             vertical-align: middle;
         }
 
-            .btn_from > i {
-                margin-left: 15px;
-            }
+        .btn_signup {
+            background: none;
+            color: white;
+            margin-right: 10px;
+        }
 
         .text_center {
             margin-top: 10px;
@@ -160,36 +162,41 @@
             </div>
 
             <div class="from_container">
-                <form action="">
-                    <h3 class="h3_from">Registration Form</h3>
+                <form id="signin">
 
+                    <h3 class="h3_from">Registration Form</h3>
                     <div class="from_group">
-                        <input type="text" class="from_input" placeholder="Fist name" />
-                        <input type="text" class="from_input" placeholder="Last name" />
+                        <input type="text" class="from_input" placeholder="Fist name" id="fistname" name="fistname" value="" />
+                        <input type="text" class="from_input" placeholder="Last name" id="lastname" name="lastname" value="" />
                     </div>
 
                     <div class="from_wrapper">
-                        <input type="text" class="from_input" placeholder="Username" />
+                        <input type="text" class="from_input" placeholder="Username" id="username" name="username" value="" />
                         <i class="fas fa-user"></i>
                     </div>
                     <div class="from_wrapper">
-                        <input type="email" class="from_input" placeholder="Email address" />
+                        <input type="email" class="from_input" placeholder="Email address" id="email" name="email" value="" />
                         <i class="fa-solid fa-envelope"></i>
                     </div>
                     <div class="from_wrapper">
-                        <input type="text" class="from_input" placeholder="Student code" />
+                        <input type="text" class="from_input" placeholder="Student code" id="studentcode" name="studentcode" value="" />
                         <i class="fa-solid fa-graduation-cap"></i>
                     </div>
                     <div class="from_wrapper">
-                        <input type="password" class="from_input" placeholder="Password" />
+                        <input type="password" class="from_input" placeholder="Password" id="passw" name="passw" value="" />
                         <i class="fa-solid fa-lock"></i>
                     </div>
                     <div class="from_wrapper">
-                        <input type="password" class="from_input" placeholder="Confirm Password" />
+                        <input type="password" class="from_input" placeholder="Confirm Password" id="confirmpassw" value="" />
                         <i class="fa-solid fa-lock"></i>
                     </div>
 
-                    <button class="btn_from">Sign Up <i class="fa-solid fa-arrow-right"></i></button>
+                    <!--<button class="btn_from" runat="server" onclick="SignUp_Click">Sign Up <i class="fa-solid fa-arrow-right"></i></button> -->
+                    <div class="btn_from">
+                        <asp:Button runat="server" OnClick="SignUp_Click" Text="Sign Up" class="btn_signup" />
+                        <span><i class="fa-solid fa-arrow-right"></i></span>
+                    </div>
+
                 </form>
 
                 <div class="text_center">
@@ -200,4 +207,8 @@
         </div>
     </div>
 
+
+    <script>
+
+</script>
 </asp:Content>

@@ -163,20 +163,21 @@
             </div>
  <!-- from đăng nhập -->
             <div class="login_form"> 
-                <form action="">
+                <form id="login" method="post" action="Login.aspx" >
                     <h3 class="h3">Log In</h3>
                     <div class="form">
                         <p>USERNAME</p>
                         <br>
-                        <input type="text" class="input" placeholder="Username"/>
+                        <input type="text" class="input" placeholder="Username" name="username" id="username" value=""/>
                     </div>
                     <br>
                     <div class="form">
                         <p>PASSWORD</p>
                         <br>
-                        <input type="text" class="input" placeholder="Password"/>
+                        <input type="password" class="input" placeholder="Password" name="passw" id="passw" value=""/>
                     </div>
-                    <button class="btt_login">Log In</button>
+                   <!-- <button class="btt_login">Log In</button> -->
+                    <asp:Button class="btt_login" runat="server" Text="Login"  OnClick="Submit_Click" />
                 </form>
         <!--        <div>
                     <br>
@@ -188,7 +189,7 @@
                 </div>-->
                 <div class="text">
                     <span>Not a member? </span>
-                    <a href="#">Sign Up</a>
+                    <a href="Dangki.aspx">Sign Up</a>
                 </div>
             </div>
         </div>
