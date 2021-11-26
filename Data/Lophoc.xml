@@ -1,0 +1,24 @@
+﻿<ArrayOfLophoc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<lophoc>
+		<Malop>MHN123456789</Malop>
+		<Magv>GV012345</Magv>
+		<Tenlop>Quản trị mạng</Tenlop>
+		<Dshs>19a10010220</Dshs>
+		<Tengv>Trần văn A</Tengv>
+	</lophoc>
+	<lophoc>
+		<Malop>MHN123456700</Malop>
+		<Magv>GV0968474</Magv>
+		<Tenlop>Quản trị mạng</Tenlop>
+		<Dshs>19b10010221</Dshs>
+		<Tengv>Trần văn A</Tengv>
+	</lophoc>
+	<lophoc>
+		<Malop>MHN123456704</Malop>
+		<Magv>GV0968468</Magv>
+		<Tenlop>anh chuyên ngành</Tenlop>
+		<Dshs>19a10010220</Dshs>
+		<Tengv>Trần văn B</Tengv>
+	</lophoc>
+</ArrayOfLophoc>

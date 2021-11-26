@@ -1,0 +1,21 @@
+﻿<?xml version="1.0"?>
+<ArrayOfBaiktra xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<baiktra>
+		<Malophoc>MHN123456789</Malophoc>
+		<Mabaiktra>MHN0001</Mabaiktra>
+		<Tenbaiktra>Bài kiểm tra số 1</Tenbaiktra>
+		<Thoigian>10</Thoigian>
+	</baiktra>
+	<baiktra>
+		<Malophoc>MHN123456789</Malophoc>
+		<Mabaiktra>MHN0002</Mabaiktra>
+		<Tenbaiktra>Bài kiểm tra số 2</Tenbaiktra>
+		<Thoigian>60</Thoigian>
+	</baiktra>
+	<baiktra>
+		<Malophoc>MHN123456789</Malophoc>
+		<Mabaiktra>MHN0003</Mabaiktra>
+		<Tenbaiktra>Bài kiểm tra số 3</Tenbaiktra>
+		<Thoigian>30</Thoigian>
+	</baiktra>
+</ArrayOfBaiktra>

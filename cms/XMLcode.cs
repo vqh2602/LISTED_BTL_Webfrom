@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Web;
 using System.Xml.Serialization;
+using LISTED.cms;
 
 namespace LISTED.cms
 {
@@ -11,7 +12,7 @@ namespace LISTED.cms
     {
 
 
-        //hoc sinh doc file xml
+        //doc ds hoc sinh  file student.xml
         public static List<student> getListStudent(String path)
         {
             List<student> list;
@@ -50,5 +51,38 @@ namespace LISTED.cms
             
             return false;
         }
+
+
+
+    
+
+
+        //doc ds lớp học  file lophoc.xml
+        public static List<lophoc> getListLophoc(String path)
+        {
+            List<lophoc> list;
+            // Đọc file
+            XmlSerializer reader = new XmlSerializer(typeof(List<lophoc>));
+            StreamReader file = new StreamReader(path);
+            list = (List<lophoc>)reader.Deserialize(file);
+            file.Close();
+            return list;
+
+        }
+
+
+        //doc ds baiktra file lophoc.xml
+        public static List<baiktra> getListBaiktra(String path)
+        {
+            List<baiktra> list1;
+            // Đọc file
+            XmlSerializer reader = new XmlSerializer(typeof(List<baiktra>));
+            StreamReader file = new StreamReader(path);
+            list1 = (List<baiktra>)reader.Deserialize(file);
+            file.Close();
+            return list1;
+
+        }
+
     }
 }

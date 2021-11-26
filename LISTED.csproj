@@ -67,8 +67,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Baikiemtra.aspx" />
     <Content Include="Dangki.aspx" />
     <Content Include="Dangnhap.aspx" />
+    <Content Include="Data\Baiktra.xml" />
+    <Content Include="Data\Lophoc.xml" />
     <Content Include="Data\Student.xml" />
     <Content Include="Fontawesome6\css\all.css" />
     <Content Include="Fontawesome6\css\all.min.css" />
@@ -13218,6 +13221,15 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Baikiemtra.aspx.cs">
+      <DependentUpon>Baikiemtra.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Baikiemtra.aspx.designer.cs">
+      <DependentUpon>Baikiemtra.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\baiktra.cs" />
+    <Compile Include="cms\lophoc.cs" />
     <Compile Include="cms\student.cs" />
     <Compile Include="cms\XMLcode.cs" />
     <Compile Include="Dangki.aspx.cs">

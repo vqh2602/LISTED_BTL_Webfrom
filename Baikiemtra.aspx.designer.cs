@@ -11,16 +11,25 @@ namespace LISTED
 {
 
 
-    public partial class Home
+    public partial class Baikiemtra
     {
 
         /// <summary>
-        /// ListViewlophoc control.
+        /// h3_tenlop control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListView ListViewlophoc;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl h3_tenlop;
+
+        /// <summary>
+        /// ListViewbaiktra control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ListView ListViewbaiktra;
     }
 }

@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="LISTED.Home" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-     <style>
+<style>
         /* phần tìm kiếm */
 
         .search_container {
@@ -511,86 +511,21 @@ hiệu ứng di chuột dropdown */
         <p>Danh sách lớp học của bạn được thêm khi bạn có trong danh sách lớp.</p>
 
         <div class="list_rooms">
+            <asp:ListView id="ListViewlophoc" runat="server">
+                    <ItemTemplate>
 
-            <a href="#" class="classroom">
+            <a href="Baikiemtra.aspx?id=<%# Eval("malop")%>" class="classroom">
                 <div class="classroom_min_img"><img src="./Master_style/img/book.jpg" alt="" /></div>
 
                 <div class="info_classroom">
-                    <h4>Lớp Tiếng Anh chuyên ngành</h4>
-                    <p>mã lớ: Mhn03498946</p>
-                    <h5>GV: Nguyễn thị trang</h5>
+                    <h4>Lớp:  <%# Eval("tenlop") %></h4>
+                    <p>mã lớp: <%# Eval("malop") %></p>
+                    <h5>GV: <%# Eval("tengv") %></h5>
                 </div>
             </a>
 
-            <a href="#" class="classroom">
-                <div class="classroom_min_img"><img src="./Master_style/img/book.jpg" alt="" /></div>
-
-                <div class="info_classroom">
-                    <h4>Lớp Tiếng Anh chuyên ngành</h4>
-                    <p>mã lớ: Mhn03498946</p>
-                    <h5>GV: Nguyễn thị trang</h5>
-                </div>
-            </a>
-
-            <a href="#" class="classroom">
-                <div class="classroom_min_img"><img src="./Master_style/img/book.jpg" alt="" /></div>
-
-                <div class="info_classroom">
-                    <h4>Lớp Tiếng Anh chuyên ngành</h4>
-                    <p>mã lớ: Mhn03498946</p>
-                    <h5>GV: Nguyễn thị trang</h5>
-                </div>
-            </a>
-           
-            <a href="#" class="classroom">
-                <div class="classroom_min_img"><img src="./Master_style/img/book.jpg" alt="" /></div>
-
-                <div class="info_classroom">
-                    <h4>Lớp Tiếng Anh chuyên ngành</h4>
-                    <p>mã lớ: Mhn03498946</p>
-                    <h5>GV: Nguyễn thị trang</h5>
-                </div>
-            </a>
-
-            <a href="#" class="classroom">
-                <div class="classroom_min_img"><img src="./Master_style/img/book.jpg" alt="" /></div>
-
-                <div class="info_classroom">
-                    <h4>Lớp Tiếng Anh chuyên ngành</h4>
-                    <p>mã lớ: Mhn03498946</p>
-                    <h5>GV: Nguyễn thị trang</h5>
-                </div>
-            </a>
-
-            <a href="#" class="classroom">
-                <div class="classroom_min_img"><img src="./Master_style/img/book.jpg" alt="" /></div>
-
-                <div class="info_classroom">
-                    <h4>Lớp Tiếng Anh chuyên ngành</h4>
-                    <p>mã lớ: Mhn03498946</p>
-                    <h5>GV: Nguyễn thị trang</h5>
-                </div>
-            </a>
-
-            <a href="#" class="classroom">
-                <div class="classroom_min_img"><img src="./Master_style/img/book.jpg" alt="" /></div>
-
-                <div class="info_classroom">
-                    <h4>Lớp Tiếng Anh chuyên ngành</h4>
-                    <p>mã lớ: Mhn03498946</p>
-                    <h5>GV: Nguyễn thị trang</h5>
-                </div>
-            </a>
-
-            <a href="#" class="classroom">
-                <div class="classroom_min_img"><img src="./Master_style/img/book.jpg" alt="" /></div>
-
-                <div class="info_classroom">
-                    <h4>Lớp Tiếng Anh chuyên ngành</h4>
-                    <p>mã lớ: Mhn03498946</p>
-                    <h5>GV: Nguyễn thị trang</h5>
-                </div>
-            </a>
+              </ItemTemplate>
+                </asp:ListView>
         </div>
     </div>
 
