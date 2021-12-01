@@ -186,7 +186,7 @@
             <asp:ListView id="ListViewbaiktra" runat="server">
                     <ItemTemplate>
 
-            <a href="#" class="classroom">
+            <a href="Tracnghiem.aspx?id=<%# Eval("mabaiktra")%>" class="classroom">
                
                 <div class="info_classroom">
                     <h4><%# Eval("tenbaiktra") %></h4>

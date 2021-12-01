@@ -30,6 +30,7 @@ namespace LISTED
             int x = 0;
             for (int i = 0; i < list.Count; i++)
             {
+
                 if (list[i].Username == username && list[i].Passw== passw)
                 {
                     //Tạo session
@@ -38,7 +39,8 @@ namespace LISTED
                     // Session["password"] = list[i].Password;
                     Session["fistname"] = list[i].Fistname;
                     Session["lastname"] = list[i].Lastname;
-           
+                    Session["email"] = list[i].Email;
+                    Session["username"] = list[i].Username;
                     Response.Redirect("Home.aspx");
                     x = 0;
 

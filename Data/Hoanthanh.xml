@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ArrayOfHoanthanh xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <hoanthanh>
+    <Mabaikiemtra>MHN0001</Mabaikiemtra>
+    <Masv>19a10010220</Masv>
+    <Check>1</Check>
+    <Time_lam>01/12/2021 2:27:51 CH</Time_lam>
+    <Time_done>01/12/2021 2:28:21 CH</Time_done>
+  </hoanthanh>
+</ArrayOfHoanthanh>

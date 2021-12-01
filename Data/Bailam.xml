@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<ArrayOfBailam xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <bailam>
+    <Mabaikiemtra>MHN0001</Mabaikiemtra>
+    <Tencauhoi>Dung dịch axit được dùng để điều chế hiđro trong phòng thí nghiệm là?</Tencauhoi>
+    <DaTrue>A</DaTrue>
+    <A>H2S04 loãng</A>
+    <B>H2SO4 đặc</B>
+    <C>HNO3 loãng</C>
+    <D>HNO3 đặc</D>
+    <Masv>19a10010220</Masv>
+    <Dasvchon>A</Dasvchon>
+    <Id>1001</Id>
+    <Diem>10</Diem>
+  </bailam>
+  <bailam>
+    <Mabaikiemtra>MHN0001</Mabaikiemtra>
+    <Tencauhoi>Đốt cháy S trong lọ khí oxi sẽ tạo ra sản phẩm là gì?</Tencauhoi>
+    <DaTrue>B</DaTrue>
+    <A>Oxit P2O5</A>
+    <B>Oxit SO2</B>
+    <C>Oxit Fe3O4</C>
+    <D>Oxit CO2</D>
+    <Masv>19a10010220</Masv>
+    <Dasvchon>B</Dasvchon>
+    <Id>1002</Id>
+    <Diem>10</Diem>
+  </bailam>
+  <bailam>
+    <Mabaikiemtra>MHN0001</Mabaikiemtra>
+    <Tencauhoi>Vì sao có thể thu khí oxi bằng cách đẩy nước?</Tencauhoi>
+    <DaTrue>D</DaTrue>
+    <A>Vì oxi tan nhiều trong nước</A>
+    <B>Vì oxi nặng hơn không khí</B>
+    <C>Vì oxi nhẹ hơn không khí</C>
+    <D>Vì oxi ít tan trong nước</D>
+    <Masv>19a10010220</Masv>
+    <Dasvchon>C</Dasvchon>
+    <Id>1003</Id>
+    <Diem>10</Diem>
+  </bailam>
+</ArrayOfBailam>

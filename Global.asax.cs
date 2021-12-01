@@ -21,7 +21,9 @@ namespace LISTED
             Session["fistname"] = "";
             Session["lastname"] = "";
             Session["studentcode"] = "";
-    
+            Session["email"] = "";
+            Session["username"] = "";
+
         }
 
         protected void Application_BeginRequest(object sender, EventArgs e)

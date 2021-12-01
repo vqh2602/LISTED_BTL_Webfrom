@@ -13,7 +13,7 @@ namespace LISTED
         {
             if ((bool)Session["login"] == true)
             {
-                head_user.InnerHtml = "<a href='#' > Xin chào: " + Session["fistname"] +"</a>";
+                head_user.InnerHtml = "<a href='Thongtintaikhoan.aspx' > Xin chào: " + Session["fistname"] +"</a>";
             }
             else
             {

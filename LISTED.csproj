@@ -70,6 +70,9 @@
     <Content Include="Baikiemtra.aspx" />
     <Content Include="Dangki.aspx" />
     <Content Include="Dangnhap.aspx" />
+    <Content Include="Data\Hoanthanh.xml" />
+    <Content Include="Data\Bailam.xml" />
+    <Content Include="Data\Tracnghiem.xml" />
     <Content Include="Data\Baiktra.xml" />
     <Content Include="Data\Lophoc.xml" />
     <Content Include="Data\Student.xml" />
@@ -13218,6 +13221,8 @@
     <Content Include="Master_style\img\header_bg.jpg" />
     <Content Include="Master_style\img\icon.png" />
     <Content Include="Master_style\style\Style_master.css" />
+    <Content Include="Thongtintaikhoan.aspx" />
+    <Content Include="Tracnghiem.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -13228,6 +13233,9 @@
     <Compile Include="Baikiemtra.aspx.designer.cs">
       <DependentUpon>Baikiemtra.aspx</DependentUpon>
     </Compile>
+    <Compile Include="cms\hoanthanh.cs" />
+    <Compile Include="cms\bailam.cs" />
+    <Compile Include="cms\tracnghiem.cs" />
     <Compile Include="cms\baiktra.cs" />
     <Compile Include="cms\lophoc.cs" />
     <Compile Include="cms\student.cs" />
@@ -13263,6 +13271,20 @@
     </Compile>
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Thongtintaikhoan.aspx.cs">
+      <DependentUpon>Thongtintaikhoan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Thongtintaikhoan.aspx.designer.cs">
+      <DependentUpon>Thongtintaikhoan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tracnghiem.aspx.cs">
+      <DependentUpon>Tracnghiem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tracnghiem.aspx.designer.cs">
+      <DependentUpon>Tracnghiem.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
